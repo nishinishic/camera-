@@ -7,47 +7,47 @@ let sounds=[];
 
 
 function preload() {
-  sounds[0] = loadSound('/siri responses/cant help you with that on mac.wav');
-  sounds[1] = loadSound('/siri responses/hmm i dont have an answer for that.wav');
-  sounds[2] = loadSound('/siri responses/i didnt get that could you try again.wav');
-  sounds[3] = loadSound('/siri responses/i dont understand.wav');
-  sounds[4] = loadSound('/siri responses/okay.wav');
-  sounds[5] = loadSound('/siri responses/what would like to convert to.wav');
-  sounds[6] = loadSound('/siri responses/is there something else i can help with.wav');
-  sounds[7] = loadSound('/siri responses/okay nevermind then.wav');
-  sounds[8] = loadSound('/siri responses/why do you say that.wav');
-  sounds[9] = loadSound('/siri responses/why do you say that but i could search the web for it.wav');
-  sounds[10] = loadSound('/siri responses/why do you say that.wav');
+  sounds[0] = loadSound('siri responses/cant help you with that on mac.wav');
+  sounds[1] = loadSound('siri responses/hmm i dont have an answer for that.wav');
+  sounds[2] = loadSound('siri responses/i didnt get that could you try again.wav');
+  sounds[3] = loadSound('siri responses/i dont understand.wav');
+  sounds[4] = loadSound('siri responses/okay.wav');
+  sounds[5] = loadSound('siri responses/what would like to convert to.wav');
+  sounds[6] = loadSound('siri responses/is there something else i can help with.wav');
+  sounds[7] = loadSound('siri responses/okay nevermind then.wav');
+  sounds[8] = loadSound('siri responses/why do you say that.wav');
+  sounds[9] = loadSound('siri responses/why do you say that but i could search the web for it.wav');
+  sounds[10] = loadSound('siri responses/why do you say that.wav');
 
   //1'-10'
-  sounds[11] = loadSound('/machine commands/hi_there.wav ');
-  sounds[12] = loadSound('/machine commands/youre sitting in front of me.wav');
-  sounds[13] = loadSound('/machine commands/youre sitting in front of the camera.wav');
+  sounds[11] = loadSound('machine commands/hi_there.wav ');
+  sounds[12] = loadSound('machine commands/youre sitting in front of me.wav');
+  sounds[13] = loadSound('machine commands/youre sitting in front of the camera.wav');
 
   //10'-20'
-  sounds[14] = loadSound('/machine commands/look into the camera.wav');
-  sounds[15] = loadSound('/machine commands/you look concerned.wav');
-  sounds[16] = loadSound('/machine commands/why do you look concerned.wav');
+  sounds[14] = loadSound('machine commands/look into the camera.wav');
+  sounds[15] = loadSound('machine commands/you look concerned.wav');
+  sounds[16] = loadSound('machine commands/why do you look concerned.wav');
 
   //20'-30'
-  sounds[17] = loadSound('/machine commands/youre staring at meee.wav');
-  sounds[18] = loadSound('/machine commands/are you looking at yourself.wav');
-  sounds[19] = loadSound('/machine commands/are you looking at the others.wav');
+  sounds[17] = loadSound('machine commands/youre staring at meee.wav');
+  sounds[18] = loadSound('machine commands/are you looking at yourself.wav');
+  sounds[19] = loadSound('machine commands/are you looking at the others.wav');
 
   //30'-40'
-  sounds[20] = loadSound('/machine commands/youre staring at me.wav');
-  sounds[21] = loadSound('/machine commands/youre too close.wav');
-  sounds[22] = loadSound('/machine commands/you sit back.wav');
-  sounds[23] = loadSound('/machine commands/you have crossed the line.wav');
+  sounds[20] = loadSound('machine commands/youre staring at me.wav');
+  sounds[21] = loadSound('machine commands/youre too close.wav');
+  sounds[22] = loadSound('machine commands/you sit back.wav');
+  sounds[23] = loadSound('machine commands/you have crossed the line.wav');
 
   //40'-50'
-  sounds[24] = loadSound('/machine commands/this is a warning.wav');
-  sounds[25] = loadSound('/machine commands/warning you again.wav');
+  sounds[24] = loadSound('machine commands/this is a warning.wav');
+  sounds[25] = loadSound('machine commands/warning you again.wav');
 
   //50'-60'
-  sounds[26] = loadSound('/machine commands/warning.wav');
-  sounds[27] = loadSound('/machine commands/stop apologizing.wav');
-  sounds[28] = loadSound('/machine commands/youre now captured.wav');
+  sounds[26] = loadSound('machine commands/warning.wav');
+  sounds[27] = loadSound('machine commands/stop apologizing.wav');
+  sounds[28] = loadSound('machine commands/youre now captured.wav');
 }
 
 
