@@ -37,7 +37,7 @@ function preload() {
   //30'-40'
   sounds[20] = loadSound('/machine commands/youre staring at me.wav');
   sounds[21] = loadSound('/machine commands/youre too close.wav');
-  sounds[22] = loadSound('/machine commands/sit back.wav');
+  sounds[22] = loadSound('/machine commands/you sit back.wav');
   sounds[23] = loadSound('/machine commands/you have crossed the line.wav');
 
   //40'-50'
